@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FYP1</string>
+    <string name="nav_open">Open Navigation</string>
+    <string name="nav_close">Close Navigation</string>
+    <string-array name="weeks">
+        <item>Week1</item>
+        <item>Week2</item>
+        <item>Week3</item>
+        <item>Week4</item>
+        <item>Week5</item>
+        <item>Week6</item>
+        <item>Week7</item>
+        <item>Week8</item>
+        <item>Week9</item>
+        <item>Week10</item>
+        <item>Week11</item>
+        <item>Week12</item>
+        <item>Week13</item>
+        <item>Week14</item>
+    </string-array>
+    <string-array name="files">
+        <item>ExtraFiles</item>
+        <item>LectureNote</item>
+        <item>TutorialNote</item>
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chat_with_who"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Chat with: "
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/chat_with_who_list"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="7"
+                android:id="@+id/friend_chat_send_messenge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/friend_chat_send_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sent"/>
+        </LinearLayout>
+
+
+</LinearLayout>

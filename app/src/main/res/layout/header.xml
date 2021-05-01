@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:orientation="vertical"
+    android:background="@drawable/logo_utar"
+    android:gravity="bottom"
+    android:padding="10dp"
+    android:alpha="0.5">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/Profile"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:src="@drawable/icon_profile"-->
+    <!--        android:layout_marginLeft="50dp"/>-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/HeaderProfilePic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/icon_profile"
+        app:civ_border_color="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userName_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HeaderProfilePic" />
+
+    <TextView
+        android:id="@+id/stuID_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="StudentID"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

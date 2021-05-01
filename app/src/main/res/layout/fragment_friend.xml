@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragment_friend_add_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00f531"
+        android:layout_gravity="right|top"
+        android:layout_margin="5dp"
+        android:src="@drawable/icon_add_friend" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragment_friend_add_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00f531"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="5dp"
+        android:src="@drawable/icon_add_group" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Friends"
+            android:textAlignment="center"
+            android:textSize="40dp" />
+        <ListView
+            android:id="@+id/fragment_group_list"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+        <ListView
+            android:id="@+id/fragment_friend_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</FrameLayout>
